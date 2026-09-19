@@ -1,8 +1,10 @@
 # claude-af
 
-Claude Code plugin for [`af`](https://github.com/tobiasosborne/vibefeld) (Vibefeld), the adversarial proof framework for mathematical research.
+Claude Code plugin for [`af`](https://github.com/tobiasosborne/vibefeld) (Vibefeld), Tobias J. Osborne's adversarial proof framework for mathematical research.
 
 Provers construct. Verifiers attack. No agent does both.
+
+This is packaging only. The tool, and the thinking behind it, belong to other people — see [Credit](#credit).
 
 ## Install
 
@@ -36,9 +38,15 @@ Everything else it defers to the CLI: `af role-help <role>`, `af <command> --hel
 
 Go 1.25.5 or newer.
 
-## Not affiliated
+## Credit
 
-`af` and Vibefeld are Tobias Osborne's work. This repo is a third-party packaging of a Claude Code skill for it, nothing more. Bugs in the tool belong upstream; bugs in the skill belong here.
+**None of the ideas here are mine. I packaged someone else's tool as a plugin, that is the whole contribution.**
+
+`af` / Vibefeld is the work of **Tobias J. Osborne** (Leibniz Universität Hannover): <https://github.com/tobiasosborne/vibefeld>. The adversarial architecture, the event-sourced ledger, the taint model, the 60+ command CLI, all of it is his. Its predecessor, [alethfeld](https://github.com/tobiasosborne/alethfeld), is also his.
+
+The discipline this skill encodes, and the reason role isolation is non-negotiable, comes from **Danielle Loader, Jonathan Oppenheim (University College London) and Tobias J. Osborne**, *How to train your slop cannon*, which is the guide to using LLMs on research mathematics and physics without fooling yourself. Its section on adversarial formalisation points readers straight at `af`. Read the guide before you use either.
+
+This repository contributes a `plugin.json`, a `marketplace.json` and one `SKILL.md`. Bugs in the tool belong upstream. Bugs in the packaging belong here.
 
 ## License
 
