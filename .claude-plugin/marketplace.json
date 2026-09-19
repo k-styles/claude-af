@@ -1,0 +1,22 @@
+{
+  "name": "vibefeld",
+  "owner": {
+    "name": "Kartik Anand",
+    "url": "https://github.com/k-styles"
+  },
+  "description": "Claude Code plugin for the af CLI (Vibefeld), the adversarial proof framework for mathematical research.",
+  "plugins": [
+    {
+      "name": "af",
+      "source": "./",
+      "description": "Adversarial proof construction with the af CLI. Provers construct, verifiers attack, no agent does both.",
+      "category": "research",
+      "keywords": [
+        "mathematics",
+        "proofs",
+        "adversarial-verification",
+        "research"
+      ]
+    }
+  ]
+}

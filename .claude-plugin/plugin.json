@@ -1,0 +1,19 @@
+{
+  "name": "af",
+  "version": "0.1.0",
+  "description": "Adversarial proof construction with the af CLI (Vibefeld). Provers construct, verifiers attack, and no agent is allowed to do both. Teaches an agent the role split, the challenge severities, what taint costs, and the four ways an agent fakes a proof.",
+  "author": {
+    "name": "Kartik Anand"
+  },
+  "homepage": "https://github.com/tobiasosborne/vibefeld",
+  "repository": "https://github.com/k-styles/claude-af",
+  "license": "MIT",
+  "keywords": [
+    "mathematics",
+    "proofs",
+    "adversarial-verification",
+    "research",
+    "vibefeld",
+    "formal-methods"
+  ]
+}
