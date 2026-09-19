@@ -40,7 +40,7 @@ Go 1.25.5 or newer.
 
 ## Credit
 
-**None of the ideas here are mine. I packaged someone else's tool as a plugin, that is the whole contribution.**
+**The ideas are credited to the respective authors**
 
 `af` / Vibefeld is the work of **Tobias J. Osborne** (Leibniz Universität Hannover): <https://github.com/tobiasosborne/vibefeld>. The adversarial architecture, the event-sourced ledger, the taint model, the 60+ command CLI, all of it is his. Its predecessor, [alethfeld](https://github.com/tobiasosborne/alethfeld), is also his.
 
